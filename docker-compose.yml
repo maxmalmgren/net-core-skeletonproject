@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  maxmalmgren.skeletonproject.web:
+    image: maxmalmgren.skeletonproject.web
+    build:
+      context: ./src/MaxMalmgren.SkeletonProject.Web
+      dockerfile: Dockerfile
